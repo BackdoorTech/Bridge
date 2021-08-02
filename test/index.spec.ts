@@ -7,7 +7,6 @@ it("Functionl", () => {
     user: {
       name: ""
     },
-    alert: alert,
     console: console
   };
 
