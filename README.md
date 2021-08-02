@@ -37,7 +37,9 @@ Virtual dom
 
 In the virtualDom can be set anything function object and variable even instance of string, number e class
 
+## Why Bridge
 
+When facing a behaviour of a particular component that is unpredictable or need to be changed dynamically. Bridge can solve this problem for you.
 
 ## Development Requirements
 node >= 14  
