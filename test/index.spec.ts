@@ -1,11 +1,31 @@
-interface Hello {
-  name: string;
-}
+import { bridge } from "./../src/index";
+import axios from "axios";
 
-let me: Hello = {
-  name: "me"
-};
+it("Functionl", () => {
+  const virtualDom = {
+    axios,
+    user: {
+      name: ""
+    },
+    alert: alert,
+    console: console
+  };
 
-it("works", () => {
-  expect(me.name).toBe("me");
+  bridge(
+    `
+    let response = await axios.get('https://api.agify.io/?name=michael');
+    let wellDone = false
+    
+    if(response.data.name != '') {
+      user.name = response.data.name;
+      alert(user.name)
+      console.log(user.name)
+      console.log(user.name.replace('mich','peter'))
+      wellDone = true
+    }
+  `,
+    virtualDom
+  );
+
+  expect("me").toBe("me");
 });
