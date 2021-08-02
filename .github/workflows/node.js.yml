@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, feature/ci ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, feature/ci ]
 
 jobs:
   build:
@@ -24,8 +24,8 @@ jobs:
     - uses: borales/actions-yarn@v2.3.0
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+      # with:
+      #   node-version: ${{ matrix.node-version }}
+      #   cache: 'npm'
     #- run: yarn install --frozen-lockfile
     - run: yarn test
