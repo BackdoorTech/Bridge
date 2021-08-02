@@ -9,7 +9,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.6.1",
+    "axios": "0.21.1",
+    "pretty-js": "0.2.2",
+    "prettyjs": "0.0.7"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
@@ -24,4 +27,8 @@
     "typescript",
     "javascript"
   ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 675ce0fa54f5b53db668e1cb31e264d53eb773e0
