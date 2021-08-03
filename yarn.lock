@@ -1221,7 +1221,7 @@
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
 
-"@types/node@*":
+"@types/node@*", "@types/node@^16.4.10":
   version "16.4.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.10.tgz#e57e2a54fc6da58da94b3571b1cb456d39f88597"
   integrity sha512-TmVHsm43br64js9BqHWqiDZA+xMtbUpI1MBIA0EyiBmoV9pcEYFOSdj5fr6enZNfh4fChh+AGOLIzGwJnkshyQ==
@@ -2978,6 +2978,14 @@ expect@^27.0.6:
     jest-matcher-utils "^27.0.6"
     jest-message-util "^27.0.6"
     jest-regex-util "^27.0.6"
+
+expr-eval-ex@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/expr-eval-ex/-/expr-eval-ex-0.0.6.tgz#943a015d0d1d3e02105e1723c287874e3e251560"
+  integrity sha512-bwmCCMdp7LyR9bmYoq7bA12Qp7yZtwESB3mF0sXqC/gqUwDVSmNR8cPx9haS7tg5xnLKIgeFSol4DFcOCGLCrg==
+  dependencies:
+    moment "^2.22.2"
+    number-precision "^1.3.2"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
@@ -4788,6 +4796,11 @@ mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+moment@^2.22.2:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -4926,6 +4939,11 @@ nth-check@^1.0.2:
   integrity sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==
   dependencies:
     boolbase "~1.0.0"
+
+number-precision@^1.3.2:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/number-precision/-/number-precision-1.5.0.tgz#eca1e3657cc7de3778987f2d22aa9dea4be238d5"
+  integrity sha512-CxmQK1FFj3G3YXS4PDZSz3+IvtNESpuMwK6JY+y4IIDBbyY1ldkvk2nqBzDJj+EKFXZrrmL/fObqtSoB8b/jZQ==
 
 nwsapi@^2.1.3, nwsapi@^2.2.0:
   version "2.2.0"
