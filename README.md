@@ -58,7 +58,7 @@ yarn install
 
 ## Connect with
 
-<a href="https://codesandbox.io/s/brige-yj6vo?file" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codesandbox.svg" alt="backdoortech" height="30" width="40" /></a>
+<a href="https://codesandbox.io/s/bridge-c774c" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codesandbox.svg" alt="backdoortech" height="30" width="40" /></a>
 
 ## Contributing
 
