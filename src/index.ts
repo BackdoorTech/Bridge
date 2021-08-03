@@ -3,12 +3,12 @@
 
 // Need to load with require because it has no corresponding type declarations
 const prettyJs = require("pretty-js");
-import { getDeep } from './../function/getDeep'
-import { setDeep } from './../function/setDeep'
-import { LineReader } from './lineReader'
-import { Variable } from './variable'
-import { Function } from './functions'
-import { stringOperator } from "./operator"
+import { getDeep } from './function/getDeep'
+import { setDeep } from './function/setDeep'
+import { LineReader } from './bridge/lineReader'
+import { Variable } from './bridge/variable'
+import { Function } from './bridge/functions'
+import { stringOperator } from "./bridge/operator"
 
 const lineReader = new LineReader()
 const variable = new Variable()

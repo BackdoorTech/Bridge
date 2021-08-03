@@ -1,4 +1,4 @@
-import { bridge } from "./../../src/bridge/index";
+import { bridge } from "../../src/index";
 import axios from "axios";
 
 it("get Name from api", async () => {
